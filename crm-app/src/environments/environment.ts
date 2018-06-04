@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyA2hFrbmcN5fwRKasckS6eQeIh-VWPFo5s",
+    authDomain: "blink-crm.firebaseapp.com",
+    databaseURL: "https://blink-crm.firebaseio.com",
+    projectId: "blink-crm",
+    storageBucket: "blink-crm.appspot.com",
+    messagingSenderId: "1026853577737"
+  }
 };
 
 /*
